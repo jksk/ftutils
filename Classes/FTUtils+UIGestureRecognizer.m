@@ -27,7 +27,7 @@
 #import "FTUtils+UIGestureRecognizer.h"
 #import <objc/runtime.h>
 
-@interface UIGestureRecognizer()
+@interface UIGestureRecognizer(PrivateFTBlockAdditions)
 
 - (void)handleAction:(UIGestureRecognizer *)recognizer;
 
